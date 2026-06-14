@@ -1,3 +1,6 @@
 **/__pycache__
 .pytest_cache
 *.bak
+.venv/
+.DS_Store
+3a/.DS_Store
