@@ -12,6 +12,7 @@ def string_to_datetime(date_string: str, date_format: str = "%Y-%m-%d") -> datet
     Returns:
         datetime: The resulting datetime object.
     """
+    #strptime es un método que convierte una cadena formateada según el patrón que le pases en un objeto de fecha/hora (datetime, date, time)
     return datetime.strptime(date_string, date_format)
 
 

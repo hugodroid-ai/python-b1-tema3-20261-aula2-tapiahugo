@@ -12,6 +12,8 @@ def add_days(date: datetime, days: int) -> datetime:
     Returns:
         datetime: A new datetime object with the specified number of days added.
     """
+    #timedelta sirve para representar y operar con diferencias de tiempo (duración: días, horas, minutos, etc.) dentro del módulo estándar datetime
+    # The timedelta class represents a duration, the difference between two dates or times.
     return date + datetime.timedelta(days=days)
 
 
